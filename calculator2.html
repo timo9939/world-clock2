@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Time Calculator</title>
+    
+    <link rel="stylesheet" href="calculator2.css">
+    
+</head>
+<body>
+
+    <nav>
+        <button><a href="world-clock.html">Home</a></button> 
+         <button><a href="calculator2.html">world Time Calculator</a></button>
+     </nav>
+
+<h2 id="calculator-title">World Time Calculator</h2>
+    <section>
+     
+        <br> 
+        
+        <div class="clock-border" id="losAngles-clock">
+        <h2 >Los Angles</h2>
+        <label for="first">Select a time:</label>
+        <input type="time" id="firstCity" name="first">
+       <button onclick="calculateTime()">Calculate Time</button>
+    </div>
+
+       <div class="clock-border" id="london-clock">
+        <h2 >London</h2>
+        <output id="london"></output>
+       </div>
+
+       <div class="clock-border" id="hongKong-clock">
+        <h2>Hong Kong</h2>
+        <output id="hongKong"></output>
+       </div>
+
+
+
+    </section>
+<script src="calculator2.js"></script>
+</body>
+</html>

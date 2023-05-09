@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body{
+
+
+    background-image: url(global.jpg);
+    background-size: 1500px;
+
+  border: 2px solid;
+ 
+
+}
+
+nav{
+
+  display:flex
+
+}
+
+#calculator-title{
+  font-family: 'Oswald', sans-serif;
+  
+  font-size: 50px;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgba(127, 255, 212, 0.595);
+  left: 50%;
+  right: 500px;
+  text-align: center;
+}
+
+section{
+  
+    top: 1000px;
+    display:flex ;
+    flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  
+  
+  
+}
+
+
+.clock-border{
+  border: 2px solid;
+  align-content: space-between;
+}
+
+#losAngles-clock{
+  
+  font-size: 25px;
+  color: aliceblue;
+  width: 200px;
+  height: 400px;
+  background-image: url(los-angles-clock.jpg);
+  background-size: cover;
+background-color: rgba(240, 248, 255, 0.6);
+align-content: right;
+
+
+}
+
+#london-clock{
+  font-size: 25px;
+  color: rgb(255, 35, 119);
+  background-image: url(london2-clock.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 400px;
+
+}
+
+#hongKong-clock{
+  font-size: 25px;
+  color: coral;
+  width: 200px;
+  height: 400px;
+  background-image: url(hong\ kong\ clock.jpg);
+  background-size:cover;
+background-color: rgba(255, 217, 0, 0.815);
+}
