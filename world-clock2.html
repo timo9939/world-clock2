@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Time</title>
+    <link rel="stylesheet" href="world-clock2.css">
+</head>
+<body>
+<nav>
+   <button><a href="world-clock2.html">Home</a></button> 
+    <button><a href="index.html">world Time Calculator</a></button>
+</nav>
+<h2 id="home-title">Current Time of World City</h2>
+    <section class="times">
+
+<div data-timezone="PST8PDT", class="clock-border", id='losAngles-clock'>
+<h2 id="current-time-title1" class="current-time-title">Los Angles</h2>
+<output id="output-clock1">00:00:00</output>
+    </div>
+
+<div data-timezone="Europe/London", class="clock-border", id='london-clock'>
+<h2 id="current-time-title2" class="current-time-title">London</h2>
+<output>00:00:00</output>
+    </div>
+
+<div data-timezone="Asia/Shanghai", class="clock-border", id='hongKong-clock'>
+<h2 id="current-time-title3" class="current-time-title">Hong Kong</h2>
+<output>00:00:00</output>
+    </div>
+
+    
+
+</section>
+
+<script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+<script src="current-clock2.js"></script>
+</body>
+</html>
